@@ -19,7 +19,14 @@ def cmd_help(update,context):
     Comandos disponibles:
     /start - Inicia el bot
     /help - Muestra mis comandos
+
+    <b>Aritmética entera modular</b>
+
+    /congruencia_lineal <i>a b m</i> - Resuelve la congruencia lineal <i>ax ≡ b (mod m)</i>
     """
 
     chat_id = update.message.chat_id
-    context.bot.send_message(chat_id, msg)
+    context.bot.send_message(chat_id, msg, parse_mode='HTML')
+
+def cmd_congruencia_lineal(update,context):
+    
