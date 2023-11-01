@@ -7,7 +7,7 @@ def cmd_start(update,context):
         username = "usuario"
     
     msg = """\
-    Hola {username}! Soy Carbur_bot, tu asistente personal para el precio del carburante en tu zona, haz "/help" para visualizar mis comandos.
+    Hola {username}! Soy Algebrian_bot, tu asistente personal para ciertas funciones algebraicas, escribe "/help" para visualizar mis comandos.
     """
 
     chat_id = update.message.chat_id
@@ -18,7 +18,7 @@ def cmd_help(update,context):
     msg = """\
     Comandos disponibles:
     /start - Inicia el bot
-    /help - Muestra esta ayuda
+    /help - Muestra mis comandos
     """
 
     chat_id = update.message.chat_id
