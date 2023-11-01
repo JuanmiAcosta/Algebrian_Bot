@@ -46,13 +46,11 @@ def congruencia_lineal(a, b, m) -> str:
         return False, False
     
 def ecuacion_diofantica(a, b, c) -> str:
-    aux_b = -b
 
     if (b < 0): 
-        b * -1
-        aux_b = -b
-        
-        
+        b=b * -1
+
+
     mcd = alg_euclides(a, b)
     if c % mcd == 0:
         x , m = congruencia_lineal(a, c, b)
@@ -62,8 +60,8 @@ def ecuacion_diofantica(a, b, c) -> str:
 
         aux1 = aux1 - c
 
-        aux1 = aux1 // aux_b
-        aux2 = aux2 // aux_b
+        aux1 = aux1 // b
+        aux2 = aux2 // b
 
         y = aux1 
         n = aux2
