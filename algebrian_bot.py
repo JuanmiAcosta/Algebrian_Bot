@@ -7,7 +7,7 @@ def main():
     updater = Updater(token, use_context=True)
     dp = updater.dispatcher
 
-    #EVENTOS QUE INICIARÁN EL BOT
+    #EVENTOS QUE INICIARÁN EL BOT COMMANDS
     dp.add_handler(CommandHandler('start', commands.cmd_start))
     dp.add_handler(CommandHandler('help', commands.cmd_help))
     dp.add_handler(CommandHandler('algoritmo_euclides', commands.cmd_algoritmo_euclides))
