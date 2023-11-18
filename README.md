@@ -16,7 +16,8 @@ Para la creación del bot he usado ["@bot_father"](https://t.me/BotFather), el b
 1. Clona el repositorio
 2. Instala las dependencias
 3. Ejecuta el proyecto
-4. Úsalo en Telegram ["@Algebrian_bot"](https://t.me/Algebrian_bot)
+4. Crea tu propio bot con una key diferente
+5. Úsalo en Telegram ["@Algebrian_bot"](https://t.me/Algebrian_bot)
 
 
 
